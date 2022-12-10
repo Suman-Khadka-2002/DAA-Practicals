@@ -17,7 +17,6 @@ int factorial(int num)
         exit(1);
     }
 
-    
 }
 
 int main()

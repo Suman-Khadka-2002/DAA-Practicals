@@ -5,7 +5,7 @@ using namespace std;
 
 int findgcd(int a, int b)
 {
-    if (a == b)
+    if (a == 0)
         cout<<b<< " is the GCD";
     else if (b == 0)
         cout<<a<< " is the GCD." ; 

@@ -11,10 +11,10 @@ void linearSearch(int a[], int n, int key)
     {
         if (a[i] == key)
         {
+            flag = 1;
             cout<<"Element found at position: " << i + 1 << endl;
             cout<<"Search is successful.";
-            flag = 1;
-            break;
+            // break;
         }
     }
 

@@ -3,18 +3,23 @@
 #include<iostream>
 using namespace std;
 
-int fibo(int n)
+int fibo(int a, int b, int n)
 {
-    if (n<=1)   
-        return n;
-    else
-        return (fibo(n-1) + fibo(n-2));
+    int i=3, temp;
+    while(i<=n){
+        temp = a+b;
+        a = b;
+        b = temp;
+        i++;
+    }
+    return temp;
 }
 
 int main()
 {
+    int first = 0, second = 1;
     int n;
     cout<<"enter the term which you want to calculate: ";
     cin>>n;
-    cout<<"the fibonacci number of element "<<n<<" is "<<fibo(n);
+    cout<<"the fibonacci number of element "<<n<<" is "<<fibo(first, second, n);
 }

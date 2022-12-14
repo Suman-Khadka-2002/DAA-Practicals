@@ -21,5 +21,6 @@ int main()
     int n;
     cout<<"enter the term which you want to calculate: ";
     cin>>n;
+    // function calling
     cout<<"the fibonacci number of element "<<n<<" is "<<fibo(first, second, n);
 }

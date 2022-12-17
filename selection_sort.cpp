@@ -3,15 +3,15 @@
 #include<iostream>
 using namespace std;
 
-void selctionSort(int arr[], int n)
+void selectionSort(int arr[], int n)
 {
-    for (int i=0; i<n; i++)
+    for (int i = 0; i < n; i++)
     {
         int least = arr[i];
         int p = i;
-        for (int j=i+1; j<n; j++)
+        for (int j = i + 1; j < n; j++)
         {
-            if (arr[j]<arr[i])
+            if (arr[j] < least)
             {
                 least = arr[j];
                 p = j;
@@ -20,11 +20,6 @@ void selctionSort(int arr[], int n)
         int temp = arr[i];
         arr[i] = arr[p];
         arr[p] = temp;
-    }
-    cout<<"\nSorted Array:  ";
-    for (int i=0; i<n; i++)
-    {
-        cout<<arr[i]<<"\t";
     }
 }
 
@@ -44,6 +39,10 @@ int main()
     {
         cout<<a[i]<<"\t";
     }
-
-    selctionSort(a, n);
+    selectionSort(a, n);
+    cout<<"\nSorted Array:  ";
+    for (int i=0; i<n; i++)
+    {
+        cout<<a[i]<<"\t";
+    }
 }

@@ -17,12 +17,6 @@ void bubbleSort(int arr[], int n)
             }
         }
     }
-// Display sorted array
-    cout<<"\nSorted Array : ";
-    for (int i=0; i<n; i++)
-    {
-        cout<<"-> "<<arr[i];
-    }
 
 }
 int main()
@@ -42,4 +36,10 @@ int main()
         cout<<"-> "<<a[i];
     }
     bubbleSort(a, n);
+// Display sorted array
+    cout<<"\nSorted Array : ";
+    for (int i=0; i<n; i++)
+    {
+        cout<<"-> "<<a[i];
+    }
 }

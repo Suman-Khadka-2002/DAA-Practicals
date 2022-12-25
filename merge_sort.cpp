@@ -1,3 +1,5 @@
+// CPP program to implement Merge Sort using OOP.
+
 #include <iostream>
 using namespace std;
 

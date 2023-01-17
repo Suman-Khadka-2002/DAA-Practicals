@@ -45,7 +45,7 @@ bool is_prime(int n, int i) {
 }
 
 int main() {
-    int n = 53;
+    int n = 11;
     int i = 2;
     if (is_prime(n, i)) {
         cout << n << " is probably prime." << endl;

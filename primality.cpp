@@ -45,11 +45,12 @@ bool is_prime(int n, int i) {
 }
 
 int main() {
-    int n = 11;
+    int n = 561;
     int i = 2;
     if (is_prime(n, i)) {
         cout << n << " is probably prime." << endl;
-    } else {
+    }
+    else {
         cout << n << " is composite." << endl;
     }
     return 0;

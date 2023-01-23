@@ -59,6 +59,6 @@ int main() {
     cout << "Enter the second string: ";
     cin >> Y;
     LCS lcs;
-    cout << "The longest common subsequence is: " << lcs.findLCS(X, Y) << endl;
+    cout << "The longest common subsequence is: " << lcs.findLCS(X, Y) ;
     return 0;
 }

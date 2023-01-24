@@ -45,7 +45,8 @@ class LCS {
                     j--;
                 }
             }
-    // Reverse the string to get LCS in the correct order
+
+        // Reverse the string to get LCS in the correct order
             reverse(lcs.begin(), lcs.end());
 
             return lcs;

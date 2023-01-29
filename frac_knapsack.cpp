@@ -66,6 +66,7 @@ class FractionalKnapsack {
   }
 };
 
+// main function
 int main() {
   FractionalKnapsack obj;
   obj.getData();
